@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  var $magic = $(".magic"),
+  const $magic = $(".magic"),
     magicWHalf = $magic.width() / 2;
-  $(document).on("mousemove", function(e) {
+  $(document).on("mousemove", function test(e) {
     $magic.css({ left: e.pageX - magicWHalf, top: e.pageY - magicWHalf });
   });
 });

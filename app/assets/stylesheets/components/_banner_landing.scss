@@ -2,22 +2,10 @@
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/Anders.ttf");
   font-family: test;
 }
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-// html,
-// body {
-//   font-size: 62.5%;
-//   height: 100%;
-//   overflow: hidden;
-// }
 .scene {
   position: relative;
-  height: 55vh;
-  background: #1d1f20;
+  height: 65vh;
+  background: $gray;
   padding: 20rem;
   text-align: center;
 }
@@ -29,21 +17,25 @@ h1 {
   z-index: 10;
 }
 .magic {
-  z-index: 5;
+  z-index: 2;
   position: absolute;
-  top: calc(50% - 10rem);
-  left: calc(50% - 10rem);
-  width: 20rem;
-  height: 20rem;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/hover-reveal.jpg")
+  top: calc(59% - 10rem);
+  left: calc(48% - 10rem);
+  width: 25rem;
+  height: 25rem;
+  background: linear-gradient(
+      90deg,
+      rgba(187, 187, 187, 0.6180672952774859) 100%,
+      rgba(255, 255, 255, 1) 100%
+    )
     50% 50% no-repeat fixed;
   background-size: cover;
   border-radius: 50%;
 }
-.check-out {
+.name {
   z-index: 100;
   position: absolute;
-  bottom: 2rem;
+  bottom: 5rem;
   left: 50%;
   transform: translateX(-50%);
   color: #fff;

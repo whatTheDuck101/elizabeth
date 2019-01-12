@@ -9,6 +9,7 @@ gem 'rails', '~> 5.2.2'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+gem 'sassc-rails'
 gem 'sassc'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -60,6 +61,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.4.0'
+gem 'jquery-rails'
 gem 'font-awesome-sass', '~> 5.0.9'
 gem 'simple_form'
 gem 'compass', '~> 1.0'

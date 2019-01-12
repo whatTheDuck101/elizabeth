@@ -63,3 +63,6 @@ gem 'bootstrap-sass', '~> 3.4.0'
 gem 'font-awesome-sass', '~> 5.0.9'
 gem 'simple_form'
 gem 'compass', '~> 1.0'
+
+#heroku deploy
+gem 'rails_12factor', group: :production

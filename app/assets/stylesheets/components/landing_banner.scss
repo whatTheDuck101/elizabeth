@@ -6,32 +6,32 @@
 }
 .opening {
   position: relative;
-  top: 15%;
-  font-family: "Dancing Script";
-  color: #fff;
+  top: 17%;
+  font-family: "Dancing Script", cursive;
+  color: $white;
   z-index: 10;
 }
 .name {
   z-index: 100;
   position: absolute;
-  top: 30%;
+  top: 32%;
   left: 49%;
   transform: translateX(-50%);
-  color: #fff;
-  font-family: "Dancing Script";
+  color: $white;
+  font-family: "Dancing Script", cursive;
 }
 
 .magic {
   z-index: 5;
   position: absolute;
-  top: calc(59% - 10rem);
+  top: calc(62% - 10rem);
   left: calc(46% - 10rem);
   width: 30rem;
   height: 30rem;
-  background: linear-gradient(
-      90deg,
-      rgba(195, 195, 195, 0.6180672952774859) 100%,
-      rgba(255, 255, 255, 1) 100%
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(168, 168, 168, 0.8281513288909313) 100%
     )
     50% 50% no-repeat fixed;
   background-size: 100% 100%;

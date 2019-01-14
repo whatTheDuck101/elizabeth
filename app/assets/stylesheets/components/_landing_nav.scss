@@ -37,10 +37,12 @@
   left: 1150px;
   a {
     text-decoration: none;
+    font-family: "Dancing Script", cursive;
     color: $green;
   }
   a:hover {
     color: $white;
+    font-family: "Barlow", "sans-serif";
     font-weight: bold;
     -webkit-text-fill-color: $white;
     -webkit-text-stroke-width: 0.5px;

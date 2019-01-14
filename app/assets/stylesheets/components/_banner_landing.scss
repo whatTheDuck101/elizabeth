@@ -6,16 +6,26 @@
   position: relative;
   height: 65vh;
   background: $gray;
-  padding: 20rem;
   text-align: center;
 }
-h1 {
+.opening {
   position: relative;
+  top: 15%;
   text-transform: uppercase;
   font-family: test;
   color: #fff;
   z-index: 10;
 }
+.name {
+  z-index: 100;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-family: test;
+}
+
 .magic {
   z-index: 2;
   position: absolute;
@@ -31,13 +41,4 @@ h1 {
     50% 50% no-repeat fixed;
   background-size: cover;
   border-radius: 50%;
-}
-.name {
-  z-index: 100;
-  position: absolute;
-  bottom: 5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff;
-  font-family: test;
 }

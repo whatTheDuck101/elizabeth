@@ -1,8 +1,7 @@
-<div><%= render  "banner_landing" %></div>
+<%= render  "landing_banner" %>
 <div class="landing">
     <div class="profile-section">
-        <div class="circle"></div>
-        <div class="profile" style="background-image: url(<%= asset_path 'elizabeth.jpg' %>);"></div>
+        <%= render  "landing_nav.html.erb" %>
     </div>
     <div class="info">
         <h5>A full-stack web developer.</h5>

@@ -1,4 +1,4 @@
 class PagesController < ApplicationController
-    def elizabeth 
+    def landing 
     end
 end

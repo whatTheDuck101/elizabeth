@@ -1,4 +1,11 @@
 class PagesController < ApplicationController
-    def elizabeth 
+    def landing 
     end
+    def projects
+    end 
+    def about_me
+    end 
+    def contact
+    end
+
 end

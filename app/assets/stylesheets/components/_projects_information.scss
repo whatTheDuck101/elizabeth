@@ -54,6 +54,14 @@
   span {
     font-size: 18px;
   }
+  a {
+    text-decoration: none;
+    color: $green;
+    padding-bottom: 10px;
+  }
+  a:hover {
+    color: $greenhover;
+  }
 }
 
 .trigger:checked + .slide {
@@ -73,7 +81,7 @@
 
 .slider-nav__label {
   font-size: 17px;
-  background-color: #333;
+  background-color: $green;
   display: block;
   margin: 0 5px;
   height: 2.5em;
@@ -89,8 +97,8 @@
 .slider-nav__label:hover,
 .slider-nav__label:active,
 .slider-nav__label:focus {
-  background-color: gray;
-  color: black;
+  background-color: $greenhover;
+  color: $gray;
 }
 
 // pallet

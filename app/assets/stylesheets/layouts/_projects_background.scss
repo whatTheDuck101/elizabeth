@@ -7,10 +7,10 @@
 
 .project-background {
   position: absolute;
-  width: 100%;
+  width: 24.5%;
   height: 100%;
   background-image: linear-gradient($gray, $black);
-  transform: skewY(28.6deg);
+  transform: skewY(21.6deg);
   transform-origin: -100px 40%;
   z-index: 1;
 }

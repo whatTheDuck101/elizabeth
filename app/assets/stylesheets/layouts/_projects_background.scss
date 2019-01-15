@@ -2,15 +2,17 @@
   position: relative;
   min-height: 100vh;
   overflow: hidden;
-  z-index: 1;
+  z-index: 0;
 }
 
 .project-background {
   position: absolute;
-  width: 24.5%;
+  width: 27%;
   height: 100%;
+  // background-color: $gray;
   background-image: linear-gradient($gray, $black);
-  transform: skewY(21.6deg);
+  transform: skewY(19deg);
   transform-origin: -100px 40%;
-  z-index: 1;
+  z-index: 0;
+  padding: 0;
 }

@@ -1,0 +1,111 @@
+.trigger {
+  display: none;
+}
+
+.slider,
+.slider-wrapper {
+  position: relative;
+  height: 780px;
+}
+
+.slide {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5000;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide-img {
+  filter: brightness(100%);
+  height: 95%;
+  width: calc(100% - 20%);
+  object-fit: fill;
+  display: block;
+  margin: 0 0 0 600px;
+}
+
+.slide-figure {
+  height: 100%;
+  width: calc(100% - 19%);
+  position: relative;
+  margin: 0;
+}
+
+.slide-caption {
+  position: absolute;
+  top: 0;
+  padding: 0 0 0 150px;
+  width: calc(100% - 70%);
+  color: $white;
+  text-align: left;
+  h6 {
+    padding-bottom: 10px;
+  }
+  p {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  span {
+    font-size: 18px;
+  }
+  a {
+    text-decoration: none;
+    color: $green;
+    padding-bottom: 10px;
+  }
+  a:hover {
+    color: $greenhover;
+  }
+}
+
+.trigger:checked + .slide {
+  z-index: 6000;
+  opacity: 1;
+}
+
+.slider-nav {
+  width: 100%;
+  text-align: right;
+  margin: 0 0 0 -8rem;
+}
+
+.slider-nav__item {
+  display: inline-block;
+}
+
+.slider-nav__label {
+  font-size: 17px;
+  background-color: $green;
+  display: block;
+  margin: 0 5px;
+  height: 2.5em;
+  line-height: 2.5em;
+  width: 2.5em;
+  text-align: center;
+  border-radius: 50%;
+  color: $white;
+  cursor: pointer;
+  transition: background-color 0.25s, color 0.25s ease-in-out;
+}
+
+.slider-nav__label:hover,
+.slider-nav__label:active,
+.slider-nav__label:focus {
+  background-color: $greenhover;
+  color: $gray;
+}
+
+// pallet
+.colours {
+  display: flex;
+  flex-direction: row;
+  div {
+    margin: 0 10px 7px 0;
+  }
+}

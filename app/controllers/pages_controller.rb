@@ -3,9 +3,6 @@ class PagesController < ApplicationController
     end
     def projects
     end 
-    def about_me
+    def info_contact
     end 
-    def contact
-    end
-
 end

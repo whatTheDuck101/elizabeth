@@ -1,6 +1,6 @@
 #projects-background {
   position: relative;
-  min-height: 100vh;
+  min-height: 110vh;
   overflow: hidden;
   z-index: 0;
 }
@@ -11,7 +11,7 @@
   height: 100%;
   background-image: linear-gradient($gray, $black);
   transform: skewY(19deg);
-  transform-origin: -100px 40%;
+  transform-origin: -173px 40%;
   z-index: 0;
   padding: 0;
 }

@@ -1,0 +1,70 @@
+$one: rgb(117, 187, 167);
+$two: rgb(142, 199, 183);
+$three: rgb(197, 217, 207);
+$four: rgb(242, 248, 248);
+
+@mixin flex_center($height, $width, $background-color) {
+  align-items: center;
+  background-color: $background-color;
+  display: flex;
+  height: $height;
+  justify-content: center;
+  width: $width;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 0 auto;
+  .github,
+  .linkedin,
+  .email {
+    @include flex_center(10vw, 10vw, $gray);
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+  }
+  a {
+    @include flex_center(8vw, 8vw, transparent);
+    animation: glow_ring linear infinite 10s, glow_text linear infinite 10s;
+    border: 3px solid $green;
+    color: $green;
+    border-radius: 50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    font-weight: 300;
+  }
+}
+
+@keyframes glow_text {
+  0%,
+  100% {
+    color: $one;
+  }
+  25% {
+    color: $two;
+  }
+  50% {
+    color: $three;
+  }
+  75% {
+    color: $four;
+  }
+}
+@keyframes glow_ring {
+  0%,
+  100% {
+    border-color: $one;
+  }
+  25% {
+    border-color: $two;
+  }
+  50% {
+    border-color: $three;
+  }
+  75% {
+    border-color: $four;
+  }
+}

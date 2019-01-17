@@ -2,7 +2,7 @@
 <div class="profile" style="background-image: url(<%= asset_path 'elizabeth.jpg' %>);"></div>
 <div class="line"></div>
 <div class="landing-nav-links">
-    <h5><%= link_to  "Projects", projects_path %></h5>
-    <h5><%= link_to  "About Me", about_contact_path(:anchor => "about") %></h5> 
-    <h5><%= link_to  "Contact", about_contact_path(:anchor => "contact") %></h5>
+    <h5><%= link_to  "Projects", info_path(:anchor => "projects-background") %></h5>
+    <h5><%= link_to  "About Me", info_path(:anchor => "about") %></h5> 
+    <h5><%= link_to  "Contact", info_path(:anchor => "contact") %></h5>
 </div>

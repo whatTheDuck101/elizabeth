@@ -1,3 +1,34 @@
 #about {
-  height: 110vh;
+  height: 125vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  h1 {
+    text-align: center;
+    color: $gray;
+    padding-top: 90px;
+  }
+  h2 {
+    color: $white;
+    font-family: "Dancing Script", cursive;
+    font-size: 100px;
+    position: absolute;
+    bottom: 60px;
+    right: 150px;
+  }
+}
+
+.about-background {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $green;
+  transform: skewY(-42deg);
+  transform-origin: bottom right;
+  z-index: 0;
+  padding: 0;
 }

@@ -1,0 +1,26 @@
+.languages {
+  padding-left: 115px;
+  width: 400px;
+  color: $gray;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  z-index: 1000;
+  i {
+    text-align: center;
+    padding: 30px;
+    font-size: 100px;
+  }
+  h3 {
+    padding: 30px;
+  }
+  .rails {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130px;
+    width: 100px;
+    margin-bottom: 30px;
+  }
+}

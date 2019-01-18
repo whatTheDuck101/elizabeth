@@ -2,9 +2,40 @@
   padding: 100px 0px 40px 0;
   text-align: center;
   z-index: 20;
+  color: $gray;
 }
 
 .project-information {
   position: relative;
   z-index: 100;
+}
+
+.about-info {
+  color: $gray;
+  background-color: $white;
+  border: 1px solid $green;
+  width: 1000px;
+  position: absolute;
+  top: 250px;
+  right: 325px;
+  padding: 55px 100px;
+  h6,
+  p {
+    padding-bottom: 20px;
+  }
+}
+
+.about-why {
+  color: $gray;
+  background-color: $white;
+  border: 1px solid $gray;
+  width: 1000px;
+  position: absolute;
+  top: 700px;
+  right: 325px;
+  padding: 55px 100px;
+  h6,
+  p {
+    padding-bottom: 20px;
+  }
 }

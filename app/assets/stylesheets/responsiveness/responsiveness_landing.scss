@@ -1,0 +1,143 @@
+// laptop
+
+@media only screen and (min-width: 1920px) {
+}
+@media only screen and (min-width: 1400px) and (max-width: 1919px) {
+  //   landing
+  .profile-section {
+    top: 368px;
+  }
+  .media-links {
+    flex-shrink: 1;
+    left: 1500px;
+  }
+  .info {
+    bottom: 210px;
+    left: 615px;
+
+    h4 {
+      padding: 0 0 10px 0;
+    }
+  }
+  //   landing_nav
+  .circle {
+    width: 450px;
+    height: 450px;
+    left: 100px;
+  }
+  .line {
+    width: 1125px;
+    left: 520px;
+  }
+  .profile {
+    width: 380px;
+    height: 380px;
+    left: 64px;
+  }
+  .landing-nav-links {
+    left: 1100px;
+  }
+
+  //   landing_banner
+  .scene {
+    height: 700px;
+    width: 180vh;
+  }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1399px) {
+  //   landing
+  .profile-section {
+    top: 368px;
+    left: 32px;
+  }
+  .media-links {
+    flex-shrink: 1;
+    left: 1290px;
+  }
+  .info {
+    bottom: 210px;
+    left: 600px;
+
+    h4 {
+      font-size: 40px;
+      padding: 0 0 15px 0;
+    }
+  }
+  //   landing_nav
+  .circle {
+    width: 430px;
+    height: 430px;
+    left: 100px;
+  }
+  .line {
+    width: 980px;
+    left: 500px;
+  }
+  .profile {
+    width: 360px;
+    height: 360px;
+    left: 64px;
+  }
+  .landing-nav-links {
+    left: 890px;
+  }
+
+  //   landing_banner
+  .scene {
+    height: 700px;
+    width: 156.5vh;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1280px) {
+  //   landing
+  .profile-section {
+    top: 388px;
+    left: -20px;
+  }
+  .media-links {
+    flex-shrink: 1;
+    left: 980px;
+  }
+  .info {
+    width: 900px;
+    bottom: 200px;
+    left: 420px;
+
+    h4 {
+      font-size: 40px;
+      padding: 0 0 15px 0;
+    }
+  }
+  //   landing_nav
+  .circle {
+    width: 370px;
+    height: 370px;
+    left: 70px;
+    border: 15px solid $green;
+  }
+  .line {
+    height: 15px;
+    width: 800px;
+    bottom: 293px;
+    left: 427px;
+  }
+  .profile {
+    width: 300px;
+    height: 300px;
+    left: 34px;
+    bottom: 293px;
+  }
+  .landing-nav-links {
+    width: 450px;
+    bottom: 320px;
+    left: 700px;
+    flex-shrink: 2;
+  }
+  //   landing_banner
+  .scene {
+    height: 650px;
+    width: 125.5vh;
+  }
+}

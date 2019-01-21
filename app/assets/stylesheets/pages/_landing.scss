@@ -3,21 +3,23 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .landing {
   display: flex;
+  flex-grow: 0;
   justify-content: space-evenly;
 }
 .profile-section {
   height: 570px;
   padding: 70px;
   position: absolute;
-  top: 35vh;
-  left: 5vh;
+  top: 388px;
+  left: 70px;
   z-index: 10;
 }
 
 .info {
+  width: 1125px;
   position: absolute;
-  bottom: 15vh;
-  left: 60vh;
+  bottom: 170px;
+  left: 600px;
   color: $green;
   font-weight: bolder;
   z-index: 10;
@@ -28,12 +30,12 @@
 
 .media-links {
   font-size: 56px;
-  width: 20vh;
+  width: 200px;
   display: flex;
   justify-content: space-between;
   position: absolute;
-  bottom: 5vh;
-  right: 150px;
+  bottom: 70px;
+  left: 1580px;
   z-index: 10;
   a {
     text-decoration: none;

@@ -1,0 +1,46 @@
+// laptop
+
+@media only screen and (min-width: 1920px) {
+}
+@media only screen and (min-width: 1400px) and (max-width: 1919px) {
+  //   landing
+  .profile-section {
+    top: 368px;
+  }
+  .media-links {
+    flex-shrink: 1;
+    left: 1500px;
+  }
+  .info {
+    bottom: 17vh;
+    left: 57vh;
+
+    h4 {
+      padding: 0 0 10px 0;
+    }
+  }
+  //   landing_nav
+  .circle {
+    width: 450px;
+    height: 450px;
+    left: 100px;
+  }
+  .line {
+    width: 1125px;
+    left: 520px;
+  }
+  .profile {
+    width: 380px;
+    height: 380px;
+    left: 64px;
+  }
+  .landing-nav-links {
+    left: 1100px;
+  }
+
+  //   landing_banner
+  .scene {
+    height: 700px;
+    width: 180vh;
+  }
+}

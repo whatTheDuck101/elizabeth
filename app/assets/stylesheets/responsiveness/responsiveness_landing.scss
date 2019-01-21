@@ -44,3 +44,51 @@
     width: 180vh;
   }
 }
+
+@media only screen and (min-width: 1281px) and (max-width: 1399px) {
+  //   landing
+  .profile-section {
+    top: 368px;
+    left: 32px;
+  }
+  .media-links {
+    flex-shrink: 1;
+    left: 1290px;
+  }
+  .info {
+    bottom: 20vh;
+    left: 52vh;
+
+    h4 {
+      font-size: 40px;
+      padding: 0 0 15px 0;
+    }
+  }
+  //   landing_nav
+  .circle {
+    width: 430px;
+    height: 430px;
+    left: 100px;
+  }
+  .line {
+    width: 980px;
+    left: 500px;
+  }
+  .profile {
+    width: 360px;
+    height: 360px;
+    left: 64px;
+  }
+  .landing-nav-links {
+    left: 890px;
+  }
+
+  //   landing_banner
+  .scene {
+    height: 700px;
+    width: 156.5vh;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 767px) {
+}

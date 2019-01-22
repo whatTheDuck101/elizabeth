@@ -1,6 +1,9 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.landing-container {
+  height: 100vh;
+}
 .landing {
   display: flex;
   flex-grow: 0;
@@ -18,8 +21,8 @@
 .info {
   width: 1125px;
   position: absolute;
-  bottom: 170px;
-  left: 600px;
+  bottom: 17%;
+  left: 32%;
   color: $green;
   font-weight: bolder;
   z-index: 10;

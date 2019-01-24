@@ -1,5 +1,4 @@
 // laptop
-
 @media only screen and (min-width: 1920px) {
 }
 @media only screen and (min-width: 1401px) and (max-width: 1919px) {
@@ -44,6 +43,8 @@
     width: 180vh;
   }
 }
+
+// laptop hiPI
 @media only screen and (min-width: 1400px) and (max-height: 900px) {
   //   landing
   .profile-section {
@@ -182,9 +183,9 @@
     width: 125.5vh;
   }
 }
-
-@media only screen and (min-width: 1280px) and (max-height: 800px) {
-  //   landing
+// laptop MDPI
+@media only screen and (max-width: 1280px) and (max-height: 900px) {
+  // landing
   .profile-section {
     top: 238px;
     left: 2%;
@@ -203,7 +204,6 @@
     left: 78%;
     bottom: 6%;
   }
-
   //   landing_nav
   .circle {
     width: 330px;
@@ -230,7 +230,7 @@
     flex-shrink: 2;
   }
 
-  //   landing_banner
+  // landing_banner
   .scene {
     height: 500px;
     width: 173.5vh;

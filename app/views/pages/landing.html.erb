@@ -1,4 +1,7 @@
-<div class="landing-contain">
+<%
+=begin%>
+ 
+ <div class="landing-contain">
     <%= render  "landing_banner" %>
     <div class="landing">
         <div class="profile-section">
@@ -12,4 +15,14 @@
             <%= render  "components/contact_links" %>
         </div>
     </div>
+</div>   
+<%
+=end%>
+
+<div class="overlay_color">
+  <div class="intro">
+    <h3>Hello,</h3>
+    <h3>I'm Elizabeth H. Creary.</h3>
+  </div>
 </div>
+  <div class="hidden-image" style="background-image: url(<%= asset_path 'banner.png' %>);"></div> 

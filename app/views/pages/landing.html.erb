@@ -1,17 +1,25 @@
-<div class="landing-contain">
+<div class="landing">
   <div class="banner">
     <%= render  "landing_banner" %>
-  </div>
-  <div class="landing">
-    <div class="profile-section">
-      <%= render  "landing_nav.html.erb" %>
-    </div>
-    <div class="info">
-      <h4>A full-stack web developer.</h4>
-      <h4>Graduate of Le Wagon Montreal and McGill University.</h4>
-    </div>
-    <div class="media-links">
-      <%= render  "components/contact_links" %>
+    <div class="landing-nav">
+        <%= render  "landing_nav.html.erb" %>
     </div>
   </div>
-</div>   
+      
+  <div class="container-landing">
+    <div class="img-profile">
+      <div class="circle">
+        <div class="profile" style="background-image: url(<%= asset_path 'elizabeth.jpg' %>);"></div>
+      </div>
+    </div>
+    <div class="stuff">
+      <div class="info">
+        <h4>A full-stack web developer.</h4>
+        <h4>Graduate of Le Wagon Montreal and McGill University.</h4>
+      </div>
+      <div class="media-links">
+        <%= render  "components/contact_links" %>
+      </div>
+    </div>
+  </div>
+</div>

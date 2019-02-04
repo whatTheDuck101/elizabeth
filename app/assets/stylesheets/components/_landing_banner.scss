@@ -1,14 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-html,
-body {
-  height: 100%;
-}
 .banner {
-  height: 70vh;
+  height: 772px;
   overflow: hidden;
 }
 .scene {
@@ -23,7 +14,7 @@ body {
 .introduction {
   z-index: 10;
   position: absolute;
-  top: 14%;
+  top: 27%;
   left: 30%;
   right: 30%;
   color: $white;

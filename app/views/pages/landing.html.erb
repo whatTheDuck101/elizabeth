@@ -1,7 +1,6 @@
 <div class="landing">
-  <div class="banner">
-    <%= render  "landing_banner" %>
-    <div class="landing-nav">
+  <div class="banner"><%= render  "landing_banner" %>
+  <div class="landing-nav">
         <%= render  "landing_nav.html.erb" %>
     </div>
   </div>
@@ -18,9 +17,7 @@
       </div>
     </div>
   </div>
-  <div class="media-links">
-    <%= render  "components/contact_links" %>
-  </div>
+  <div class="media-links"><%= render  "components/contact_links" %></div>
 </div>
 
 <div id="projects-background">
@@ -38,3 +35,11 @@
   </ul><!-- .slider-nav -->  
 </div>
 
+<div id="about">
+  <div class="about-background"></div>
+  <h1 class="title">About Me</h1>
+  <h2>Let's work together!</h2>    
+  <div class="languages"><%= render  "components/languages" %></div> 
+  <div class="about-info"><%= render  "about_info" %></div>  
+  <div class="about-why"><%= render  "about_why" %></div> 
+</div> 

@@ -26,8 +26,13 @@
   margin-bottom: 20px;
 }
 
+.icon {
+  z-index: 10;
+}
+
 .language {
   font-size: 16px;
   font-family: "Barlow", cursive;
   z-index: 10;
+  padding: 3px 0;
 }

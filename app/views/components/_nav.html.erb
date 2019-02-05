@@ -3,7 +3,7 @@
   <div class="nav-right hidden-xs hidden-sm">
    <%= link_to  "Projects", root_path(:anchor => "projects-background"), class: "nav-item nav-link" %>
    <%= link_to  "About Me", root_path(:anchor => "about"), class: "nav-item nav-link" %> 
-   <%= link_to  "Contact", info_path(:anchor => "contact"), class: "nav-item nav-link" %>
+   <%= link_to  "Contact", root_path(:anchor => "contact"), class: "nav-item nav-link" %>
   </div>
 
   <div class="nav-item hidden-md hidden-lg">
@@ -12,7 +12,7 @@
       <ul class="dropdown-menu dropdown-menu-right nav-dropdown-menu">
         <li><%= link_to  "Projects", root_path(:anchor => "projects-background") %></li>
         <li><%= link_to  "About Me", root_path(:anchor => "about") %></li>
-        <li><%= link_to  "Contact", info_path(:anchor => "contact") %></li>
+        <li><%= link_to  "Contact", root_path(:anchor => "contact") %></li>
       </ul>
     </div>
   </div>

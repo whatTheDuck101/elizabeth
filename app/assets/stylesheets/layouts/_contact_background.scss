@@ -1,33 +1,33 @@
 #contact {
-  height: 100vh;
+  min-height: 100%;
+  overflow: hidden;
 }
 .contact-info {
   text-align: center;
   margin: 0px 0 40px 0;
-  h1,
   p {
     color: $gray;
-    padding-bottom: 30px;
+    padding-top: 5%;
   }
 }
 
 .contact-box {
-  width: 1170px;
-  padding: 150px 40px;
+  width: 78%;
+  padding: 120px 40px 150px 40px;
   margin: 62px auto;
   position: relative;
   border: 36px solid $green;
   border-radius: 2px;
   background-color: $white;
-  z-index: 1000;
+  z-index: 10;
 }
 
 .line-one,
 .line-four {
   background-color: $green;
   height: 15px;
-  width: 1370px;
+  width: 87%;
   margin: auto auto;
   border-radius: 2px;
-  z-index: 1000;
+  z-index: 10;
 }

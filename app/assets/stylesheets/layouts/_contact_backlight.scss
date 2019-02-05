@@ -28,7 +28,7 @@ $four: rgb(242, 248, 248);
   }
   a {
     @include flex_center(8vw, 8vw, transparent);
-    animation: glow_ring linear infinite 10s, glow_text linear infinite 10s;
+    animation: glow_ring linear infinite 5s, glow_text linear infinite 5s;
     border: 3px solid $green;
     color: $green;
     border-radius: 50%;

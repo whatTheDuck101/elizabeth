@@ -1,6 +1,7 @@
 #projects-background {
   position: relative;
-  height: 100vh;
+  min-height: 100%;
+  width: 100%;
   overflow: hidden;
   z-index: 0;
 }
@@ -9,9 +10,21 @@
   position: absolute;
   width: 27%;
   height: 100%;
-  background-image: linear-gradient($gray, $black);
-  transform: skewY(19deg);
-  transform-origin: -173px 40%;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(29, 31, 32, 0.9135855025603992) 100%
+  );
+  transform: skewY(15.6deg);
+  transform-origin: 0 0;
   z-index: 0;
   padding: 0;
+}
+
+.title {
+  margin: 2% 0;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  color: $gray;
+  z-index: 20;
 }

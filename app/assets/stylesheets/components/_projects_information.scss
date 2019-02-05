@@ -5,30 +5,28 @@
 .slider,
 .slider-wrapper {
   position: relative;
-  top: 1vh;
-  height: 800px;
+  height: 720px;
 }
 
 .slide {
   background-color: transparent;
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 5000;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
 
 .slide-img {
   filter: brightness(100%);
-  height: 93.5%;
-  width: calc(100% - 19%);
+  // height: 93.5%;
+  width: calc(100% - 15%);
   object-fit: fill;
   display: block;
-  margin: 1.5% 0 0 38%;
+  margin: 0 0 0 34%;
 }
 
 .slide-figure {
@@ -38,6 +36,7 @@
   margin: 0;
 }
 
+// project information
 .slide-caption {
   position: absolute;
   top: 0;
@@ -45,35 +44,58 @@
   width: calc(100% - 70%);
   color: $white;
   text-align: left;
-  h6 {
-    padding-bottom: 10px;
+  overflow: auto;
+  .caption {
+    font-family: "Dancing Script", cursive;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    &::after {
+      content: "";
+      height: 2px;
+      display: block;
+      position: relative;
+      width: 20px;
+      background-color: $white;
+    }
   }
-  p {
-    font-size: 20px;
-    padding-bottom: 10px;
+  ul {
+    margin: 0;
   }
-  span {
-    font-size: 18px;
+  li {
+    font-size: 16px;
   }
+  .website,
   a {
     text-decoration: none;
     color: $green;
-    padding-bottom: 10px;
+    font-size: 15px;
   }
-  a:hover {
+  .website:hover {
     color: $greenhover;
+  }
+  .original {
+    font-size: 24px;
+  }
+}
+// pallet
+.colours {
+  display: flex;
+  flex-direction: row;
+  div {
+    margin: 0 10px 7px 0;
   }
 }
 
+// slider located on landing.html.erb
 .trigger:checked + .slide {
-  z-index: 6000;
   opacity: 1;
+  z-index: 100;
 }
 
 .slider-nav {
   width: 100%;
   text-align: right;
-  margin: 0 0 0 -8rem;
+  margin: 2% 0 2% -8rem;
 }
 
 .slider-nav__item {
@@ -100,13 +122,4 @@
 .slider-nav__label:focus {
   background-color: $greenhover;
   color: $gray;
-}
-
-// pallet
-.colours {
-  display: flex;
-  flex-direction: row;
-  div {
-    margin: 0 10px 7px 0;
-  }
 }

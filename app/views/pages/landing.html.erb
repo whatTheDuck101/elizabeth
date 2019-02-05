@@ -18,7 +18,23 @@
       </div>
     </div>
   </div>
-   <div class="media-links">
-      <%= render  "components/contact_links" %>
-    </div>
+  <div class="media-links">
+    <%= render  "components/contact_links" %>
+  </div>
 </div>
+
+<div id="projects-background">
+  <div id="nav">
+    <%= render  "components/nav" %>
+  </div>
+  <div class="project-background"></div>
+  <h1 class=title>Projects</h1>
+  <div class="projects-information">
+    <%= render  "project_information.html.erb" %>
+  </div>
+  <ul class="slider-nav">
+    <li class="slider-nav__item"><label class="slider-nav__label" for="one">1</label></li>
+    <li class="slider-nav__item"><label class="slider-nav__label" for="two">2</label></li>
+  </ul><!-- .slider-nav -->  
+</div>
+

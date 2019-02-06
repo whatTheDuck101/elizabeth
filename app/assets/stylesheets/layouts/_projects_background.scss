@@ -1,11 +1,10 @@
-#project {
-}
 #projects-background {
   position: relative;
   min-height: 100%;
   width: 100%;
   overflow: hidden;
   z-index: 0;
+  padding-top: 5%;
 }
 
 .project-background {
@@ -17,7 +16,7 @@
     rgba(0, 0, 0, 1) 0%,
     rgba(29, 31, 32, 0.9135855025603992) 100%
   );
-  transform: skewY(15.6deg);
+  transform: skewY(18deg);
   transform-origin: 0 0;
   z-index: 0;
 }

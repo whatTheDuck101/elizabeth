@@ -16,10 +16,11 @@
     </div>
   </div>
   <div class="media-links"><%= render  "components/contact_links" %></div>
-</div>
+</div>  
+
+<div id="test"><%= render  "components/nav" %></div>
 
 <div id="projects-background">
-  <div id="nav"><%= render  "components/nav" %></div>
   <div class="project-background"></div>
   <h1 class=title>Projects</h1>
   <div class="projects-information"><%= render  "project_information.html.erb" %></div>
@@ -51,4 +52,5 @@
   <div class="line-four"></div> 
   <br><br>
 </div>
+<%= javascript_pack_tag 'nav_scroll' %> 
 

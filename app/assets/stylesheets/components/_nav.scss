@@ -79,6 +79,5 @@
   z-index: 99999 !important;
   top: 0;
   opacity: 1;
-  transition-property: opacity;
-  transition: cubic-bezier(0.86, 0, 0.07, 3);
+  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }

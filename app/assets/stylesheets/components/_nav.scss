@@ -8,7 +8,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  z-index: 9000;
+  position: relative;
+  opacity: 0;
 }
 .nav-left {
   text-align: left;
@@ -70,4 +71,13 @@
   transform: rotate(45deg);
   border-left: 1px solid $white;
   border-top: 1px solid $white;
+}
+
+.sticky .nav {
+  position: fixed;
+  width: 100%;
+  z-index: 99999 !important;
+  top: 0;
+  opacity: 1;
+  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }

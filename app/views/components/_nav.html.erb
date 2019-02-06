@@ -1,9 +1,9 @@
 <div class="nav">
   <%= link_to  "Elizabeth H.C.", root_path, class: "nav-left"%>
   <div class="nav-right hidden-xs hidden-sm">
-   <%= link_to  "Projects", root_path(:anchor => "projects-background"), class: "nav-item nav-link" %>
-   <%= link_to  "About Me", root_path(:anchor => "about"), class: "nav-item nav-link" %> 
-   <%= link_to  "Contact", root_path(:anchor => "contact"), class: "nav-item nav-link" %>
+  <%= link_to  "Projects", root_path(:anchor => "projects-background"), method: :get, class: "nav-item nav-link" %>
+  <%= link_to  "About Me", root_path(:anchor => "about"), method: :get, class: "nav-item nav-link" %> 
+  <%= link_to  "Contact", root_path(:anchor => "contact"), method: :get, class: "nav-item nav-link" %>
   </div>
 
   <div class="nav-item hidden-md hidden-lg">

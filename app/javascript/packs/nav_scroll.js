@@ -12,4 +12,3 @@ function myFunction() {
 }
 
 window.addEventListener("scroll", myFunction);
-myFunction();

@@ -8,5 +8,3 @@ function mobileViewUpdate() {
 }
 
 mobileViewUpdate();
-// $(window).load(mobileViewUpdate);
-// $(window).resize(mobileViewUpdate);

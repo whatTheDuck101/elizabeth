@@ -19,17 +19,18 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   // _landing_banner.scss
   .banner {
-    height: 700px;
+    height: 650px;
   }
 
   .scene {
-    background: $red;
     z-index: 3;
   }
   .introduction {
     top: 4%;
     left: 27%;
     right: 27%;
+    -webkit-text-stroke: 2px $gray;
+    paint-order: stroke fill;
   }
   .interactive-two {
     width: 100%;
@@ -40,6 +41,7 @@
   }
   .interactive-two:hover {
     opacity: 1;
+    transition: opacity 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
   }
 }
 

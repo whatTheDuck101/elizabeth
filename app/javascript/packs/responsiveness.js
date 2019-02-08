@@ -4,6 +4,8 @@ function mobileViewUpdate() {
     $(".magic")
       .addClass("interactive-two")
       .removeClass("magic");
+    $(".project-background").removeClass("project-background");
+  } else {
   }
 }
 

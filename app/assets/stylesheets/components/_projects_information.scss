@@ -43,7 +43,7 @@
   width: calc(100% - 70%);
   color: $white;
   text-align: left;
-  overflow: auto;
+  overflow-y: scroll;
   .caption {
     font-family: "Dancing Script", cursive;
     padding-bottom: 5px;

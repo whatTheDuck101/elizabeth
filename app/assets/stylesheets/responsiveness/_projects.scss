@@ -2,7 +2,6 @@
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   // projects_background.scss
-
   .project-background {
     width: 0;
     height: 0;
@@ -14,7 +13,7 @@
   .slider-wrapper {
     position: relative;
     top: 2%;
-    height: 106vh;
+    height: 108vh;
   }
 
   .slide-img {
@@ -35,10 +34,9 @@
     width: 100%;
     color: $gray;
     text-align: center;
-    overflow: scroll;
+    overflow-y: scroll;
     // z-index: -1;
     .caption::after {
-      text-align: center;
       left: 48%;
       background-color: $gray;
     }
@@ -61,6 +59,53 @@
   #projects-background {
     background-color: $red;
   }
+  .project-background {
+    width: 0;
+    height: 0;
+  }
+
+  // projects_information.scss
+
+  .slider,
+  .slider-wrapper {
+    position: relative;
+    top: 2%;
+    height: 108vh;
+  }
+
+  .slide-img {
+    width: calc(100% - 29%);
+    margin: 0 0 0 50%;
+  }
+
+  // .slide-figure {
+  //   width: 100%;
+  // }
+  .slide-caption {
+    position: relative;
+    top: 2%;
+    padding: 0 7%;
+    width: 100%;
+    color: $gray;
+    text-align: left;
+    .caption::after {
+      left: 48%;
+      background-color: $gray;
+    }
+  }
+
+  // .colours {
+  //   justify-content: center;
+  // }
+  // .slider-nav {
+  //   text-align: left;
+  //   margin: 0;
+  //   padding-bottom: 1%;
+  //   position: absolute;
+  //   top: 750px;
+  //   left: 3%;
+  //   z-index: 100;
+  // }
 }
 @media (min-width: 320px) and (max-width: 480px) {
 }

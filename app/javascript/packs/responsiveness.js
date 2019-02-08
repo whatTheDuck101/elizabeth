@@ -6,5 +6,4 @@ function mobileViewUpdate() {
       .removeClass("magic");
   }
 }
-
 mobileViewUpdate();

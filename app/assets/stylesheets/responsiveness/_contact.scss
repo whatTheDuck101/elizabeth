@@ -1,0 +1,36 @@
+@media (min-width: 1025px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  // contact_backlight.scss
+  .box {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    transform: scale(2.6);
+    padding: 100px 0;
+    div {
+      margin: 2% 0;
+    }
+  }
+}
+@media (max-width: 319px) {
+  // contact_backlight.scss
+  .box {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    transform: scale(2.6);
+    padding: 100px 0;
+    div {
+      margin: 2% 0;
+    }
+  }
+}

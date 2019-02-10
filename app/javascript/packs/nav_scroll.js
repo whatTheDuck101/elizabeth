@@ -1,4 +1,4 @@
-var navbar = document.getElementById("test");
+var navbar = document.getElementById("nav-scroll");
 var project = document.getElementById("projects-backgropund");
 var sticky = navbar.offsetTop;
 

@@ -81,3 +81,19 @@
   opacity: 1;
   transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .nav-left {
+    font-size: 24px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav-left {
+    font-size: 24px;
+  }
+}
+@media (max-width: 319px) {
+  .nav-left {
+    font-size: 24px;
+  }
+}

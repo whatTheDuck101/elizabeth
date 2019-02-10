@@ -24,6 +24,7 @@
   height: 130px;
   width: 100px;
   margin-bottom: 20px;
+  z-index: 10;
 }
 
 .icon {
@@ -32,7 +33,7 @@
 
 .language {
   font-size: 16px;
-  font-family: "Barlow", cursive;
+  font-family: "Barlow", "sans-serif";
   z-index: 10;
   padding: 3px 0;
 }
